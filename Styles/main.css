@@ -1,0 +1,118 @@
+body {
+	padding: 0px;
+	margin: 0px;
+	font-family: 'Oswald', sans-serif;
+	color: white;
+	text-align: left;
+}
+#wrapper {
+	height: 100vh;
+	width: 100vw;
+	position: fixed;
+	top: 0px;
+	left: 0px;
+
+}
+#bg {
+	background-image: url(../Images/MNT.jpg);
+	background-repeat: no-repeat cover cover fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	background-attachment: fixed;
+	height: 100vh;
+	width: 100vw;
+
+}
+#Title {
+	font-size: 5vw;
+	font-family: 'Abril Fatface', cursive;
+	color: white;
+
+}
+#Description {
+	width: 600px;
+}
+/*#ScrollHolder{
+	height: 10000px;
+	width: 100px;
+	background-color: teal;
+	opacity: 0;
+}*/
+img {
+	width: 650px;
+	height: auto;
+	position: absolute;
+	top: 200px;
+	left: 700px;
+}
+button {
+	font-size: 1.5vw;
+	border-radius: 5px;
+	border-color: white;
+}
+#Satsuki {
+	background-color: gold;
+}
+#Mei {
+	background-color: pink;
+}
+#Tatsuo {
+	background-color: maroon;
+	color: white;
+}
+#Yasuko {
+	background-color: lightblue;
+}
+#Totoro {
+	background-color: gray;
+	color: white;
+}
+#ChuTotoro {
+	background-color: blue;
+	color: white;
+}
+#ChibiTotoro {
+	background-color: darkgreen;
+	color: white;
+}
+#Catbus {
+	background-color: tan;
+	color: black;
+}
+#Granny {
+	background-color: skyblue;
+	color: black;
+}
+#Kanta {
+	background-color: white;
+	color: black;
+}
+#characterIcon {
+	-webkit-animation: fadeIn 5s infinite;
+	-moz-animation: fadeIn 5s infinite;
+	-ms-animation: fadeIn 5s infinite;
+	-o-animation: fadeIn 5s infinite;
+	animation: fadeIn 5s infinite;
+}
+#ID {
+	-webkit-animation: flash 2s infinite;
+	-moz-animation: flash 2s infinite;
+	-ms-animation: flash 2s infinite;
+	-o-animation: flash 2s infinite;
+	animation: flash 2s infinite;
+}
+#Title {
+	-webkit-animation: slideInLeft;
+	-moz-animation: slideInLeft;
+	-ms-animation: slideInLeft;
+	-o-animation: slideInLeft;
+	animation: slideInLeft;
+}
+
+
+
+
+
+
