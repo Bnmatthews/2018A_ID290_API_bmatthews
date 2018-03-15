@@ -1,118 +1,41 @@
 body {
 	padding: 0px;
 	margin: 0px;
-	font-family: 'Oswald', sans-serif;
-	color: white;
-	text-align: left;
-}
-#wrapper {
-	height: 100vh;
-	width: 100vw;
-	position: fixed;
-	top: 0px;
-	left: 0px;
-
-}
-#bg {
-	background-image: url(../Images/MNT.jpg);
+	background-image: url(../Images/Snoopy.jpg);
 	background-repeat: no-repeat cover cover fixed;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
 	background-size: cover;
-	background-attachment: fixed;
-	height: 100vh;
-	width: 100vw;
-
 }
-#Title {
+h1 {
+	font-family: 'Coiny', cursive;
+	color: white;
+	text-align: center;
 	font-size: 5vw;
-	font-family: 'Abril Fatface', cursive;
+	-webkit-animation: rubberBand .9s;
+	-moz-animation: rubberBand .9s;
+	-ms-animation: rubberBand .9s;
+	-o-animation: rubberBand .9s;
+	animation: rubberBand .9s;
+	text-shadow: 0px 2px 7px #12889B;
+}
+h5 {
+	font-family: 'IBM Plex Serif', serif;
 	color: white;
-
-}
-#Description {
-	width: 600px;
-}
-/*#ScrollHolder{
-	height: 10000px;
-	width: 100px;
-	background-color: teal;
-	opacity: 0;
-}*/
-img {
-	width: 650px;
-	height: auto;
+	columns: 4;
+	width: 850px;
 	position: absolute;
-	top: 200px;
-	left: 700px;
-}
-button {
+	left: 20%;
+	top: 20%;
 	font-size: 1.5vw;
-	border-radius: 5px;
-	border-color: white;
+	-webkit-animation: fadeIn 3s;
+	-moz-animation: fadeIn 3s;
+	-ms-animation: fadeIn 3s;
+	-o-animation: fadeIn 3s;
+	animation: fadeIn 3s;
 }
-#Satsuki {
-	background-color: gold;
+#dogs li:hover {
+	color: lightgreen;
+	cursor: pointer;
 }
-#Mei {
-	background-color: pink;
-}
-#Tatsuo {
-	background-color: maroon;
-	color: white;
-}
-#Yasuko {
-	background-color: lightblue;
-}
-#Totoro {
-	background-color: gray;
-	color: white;
-}
-#ChuTotoro {
-	background-color: blue;
-	color: white;
-}
-#ChibiTotoro {
-	background-color: darkgreen;
-	color: white;
-}
-#Catbus {
-	background-color: tan;
-	color: black;
-}
-#Granny {
-	background-color: skyblue;
-	color: black;
-}
-#Kanta {
-	background-color: white;
-	color: black;
-}
-#characterIcon {
-	-webkit-animation: fadeIn 5s infinite;
-	-moz-animation: fadeIn 5s infinite;
-	-ms-animation: fadeIn 5s infinite;
-	-o-animation: fadeIn 5s infinite;
-	animation: fadeIn 5s infinite;
-}
-#ID {
-	-webkit-animation: flash 2s infinite;
-	-moz-animation: flash 2s infinite;
-	-ms-animation: flash 2s infinite;
-	-o-animation: flash 2s infinite;
-	animation: flash 2s infinite;
-}
-#Title {
-	-webkit-animation: slideInLeft;
-	-moz-animation: slideInLeft;
-	-ms-animation: slideInLeft;
-	-o-animation: slideInLeft;
-	animation: slideInLeft;
-}
-
-
-
-
-
-
